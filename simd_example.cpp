@@ -1,3 +1,11 @@
+/**
+ * SIMD (simple instruction, multiple data) examples in vector computation
+ * The usage of these vector-processing capabilities in parallel can provide important speedups in certain algorithms
+ *
+ * compile: g++ -msse2 simd_example.cpp
+ * run: ./a.out
+ */
+
 #include <cstdio>
 #include <xmmintrin.h>
 
